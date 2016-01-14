@@ -19,18 +19,55 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+	margin: 0;
+	width: 100%;
+}
+
+.container {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-color: #abc123;
+	height: 100%;
+	width: 100%;
+	bottom: 0px;
+	margin: 0;
 }
 
 .jumbotron {
 	position: relative;
-	background: none;
+	background-color: #2ee123;
+	text-align: center;
+	margin: 0;
 }
 
+.colhold {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.col1 {
+	float: left;
+}
+
+.col2 {
+	float: left;
+}
+
+.col3 {
+	float: left;
+}
+
+.footer {
+	background-color: #412efa;
+	height: 100%;
+	width: 100%;
+}
+/*
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     background: url("http://40.media.tumblr.com/tumblr_m52a9yxgcr1rnlpglo1_1280.jpg");
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -38,4 +75,4 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
-}
+}*/
